@@ -1,0 +1,165 @@
+﻿<html>
+<head>
+<title>LOGAN</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="main.css">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+</head>
+
+<body background="Logan111.jpg">
+
+    <div id="header">
+		<input type="button" class="title" value="LOGAN">	
+		<input type="button" class="language" id="ch" value="中文">
+		<input type="button" class="language" id="en" value="ENGLISH">
+		<font class="language">MENU : </font>
+		<ul style="list-style-type:none">
+			<li><input type="button" class="happy" id="o" value="OTHERS"></li>
+			<li><input type="button" class="happy" id="t" value="TRAILER"></li>
+			<li><input type="button" class="happy" id="c" value="CHARACTERS"></li>
+			<li><input type="button" class="happy" id="s" value="STORY"></li>
+			<li><input type="button" class="happy" id="ab" value="ABOUT"></li>
+		</ul>
+		<div id="chinese" style = "display:none;">
+		<ul style="list-style-type:none;">
+			<li><input type="button" style="border-width:0px 2px;" class="slide" id="ooo" value="其他資訊"></li>
+			<li><input type="button" style="border-width:0px 30px;" class="slide" id="ttt" value="電影預告"></li>
+			<li><input type="button" style="border-width:0px 31px;" class="slide" id="ccc" value="角色介紹"></li>
+			<li><input type="button" style="border-width:0px 8px;" class="slide" id="sss" value="電影大綱"></li>
+			<li><input type="button" style="border-width:0px 3px;" class="slide" id="abbb" value="網站介紹"></li>
+		</ul>
+		</div>
+	</div>
+	
+	<div id="others" style = "center;color:#FFFFFF;display:none;">
+		<ul style="list-style-type:none">
+			<li><input class="introduce" type="button" id="imdb" value="IMDb" 
+				onclick="javascript:location.href='http://www.imdb.com/title/tt3315342/?ref_=nv_sr_1'"></li>
+			<li><input class="introduce" type="button" id="facebook" value="Facebook"
+				onclick="javascript:location.href='https://www.facebook.com/TheWolverineMovie/'"></li>
+			<li><input class="introduce" type="button" id="c" value="Fan meeting"
+				onclick="javascript:location.href='https://www.facebook.com/events/387962071563336/'"></li>
+			
+		</ul>
+	</div>
+	
+    
+    <div id="story"  style = "display:none">
+			<br>
+			In the near future,<br>
+			a weary Logan cares for an ailing Professor X <br>
+			somewhere on the Mexican border.<br>
+			However, Logan's attempts to hide from the world and <br>
+			his legacy are upended when a young mutant arrives,<br>
+			pursued by dark forces.<br>
+	</div>
+	<div id="about" style = "display:none;text-align:center;color:#880000">
+	
+		<h1>ABOUT</h1>
+		這個網站為您介紹「羅根」這部電影<br>
+		利用上面這列黑色的 MENU 可以做選擇<br>
+		STORY 是介紹故事大綱<br>
+		CHARACTERS 是介紹電影裡角色<br>
+		TRAILER 則是本部電影的預告片<br>
+		更多的資訊在 OTHERS 裡面都可以選擇<br>
+		不管您在哪一頁
+		左上角的 LOGAN 都可以帶您回到首頁<br>
+	</div>
+	
+	
+	<div id="trailer" class=trail style = "display:none">
+			<iframe  width="560" height="315" src="https://www.youtube.com/embed/Div0iP65aZo" 
+				frameborder="0" allowfullscreen
+				style="margin-top:90px;margin-left:90px"></iframe>
+	</div>
+		
+	<div id="characters" style = "display:none">
+		<div class=charac >
+			<img src="r.jpg" width="700" height="450" style="margin-top:30px;cursor: pointer;">
+			<h1 style="text-align:right;margin-top:-350px;margin-right:50px;font-size:50px;">
+				James「Logan」Howlett / <br>Wolverine</h1>
+			<h3 style="text-align:right;margin-top:100px;margin-right:50px;">
+			變種人，前X戰警成員，現為年邁的滄桑浪人。<br>
+			擁有快速癒合能力、並常以亞德曼金屬雙爪為武器；<br>
+			但經過漫長的歲月，使得自己的癒合能力逐漸弱化。</h3>
+			<div class=tag style="display:none;width:250px;margin-right:380px;">Hugh Jackman</div>
+		</div>
+		<div class=charac >
+			<img src="l.jpg" width="400" height="450" style="margin-left:150px;margin-top:30px;cursor: pointer;">
+			<h1 style="text-align:right;margin-top:-350px;margin-right:50px;font-size:50px;">
+				Laura Kinney／<br>X-23</h1>
+			<h3 style="text-align:right;margin-top:100px;margin-right:50px;">
+			一位神秘的變種小女孩，「Transigen 」計畫的成果之一，<br>
+			擁有和羅根「一模一樣」的能力。</h3>
+			<div class=tag style="display:none;width:250px;margin-right:500px;">Dafne Keen</div>
+		</div>
+		<div class=charac>
+			<img src="x.jpg" width="700" height="450" style="margin-top:30px;cursor: pointer;">
+			<h1 style="text-align:right;margin-top:-350px;margin-right:50px;font-size:50px;">
+				Charles Francis Xavier / <br>Professor X</h1>
+			<h3 style="text-align:right;margin-top:100px;margin-right:20px;">
+			變種人，擁有世上最強大的心靈感應能力，X戰警的創始人和前領導人。<br>
+			現因為阿茲海默症所苦，導致自己的能力是不定時炸彈，<br>
+			時不時就會認不出羅根。</h3>
+			<div class=tag style="display:none;width:400px;margin-right:200px;">Patrick Stewart</div>
+		</div>
+		<div id="gotop">^</div>
+	</div>
+<script>
+$(document).ready(function() { 
+	$(".happy").hover(function() {
+      $(this).addClass('change');
+    },function() {
+      $(this).removeClass('change');
+    })
+	$(".title").click(function(){
+        $("#story,#characters,#trailer").fadeOut();
+	})
+	$("#s").click(function(){
+        $("#story").fadeIn();
+		$("#characters").hide();
+		$("#trailer").hide();
+	})
+	$("#c").click(function(){
+        $("#characters").fadeIn("slow");
+		$("#story").hide();
+		$("#trailer").hide();
+	})
+	$("#t").click(function(){
+        $("#characters").hide();
+		$("#story").hide();
+		$("#trailer").show();
+	})
+	$("#ab").hover(function(){
+        $("#about").stop(true,true).fadeToggle();
+    })
+	$("img").click(function(){
+        $(".tag").toggle(3000);
+    });
+	$("#ch").click(function(){
+        $("#chinese").slideDown("slow");
+    });
+	$("#en").click(function(){
+        $("#chinese").slideUp("slow");
+    });
+	$("#o").click(function(){
+        $("#others").stop(true,true).slideToggle();
+    })
+	$("#gotop").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 500){
+            $('#gotop').fadeTo("fast",1);
+        } else {
+            $('#gotop').stop().fadeTo("fast",0.15);
+        }
+    });
+})
+
+</script>
+ 
+</body>
+</html>

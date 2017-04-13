@@ -1,0 +1,162 @@
+﻿
+#header{
+  background:#000000; 
+  color:#FFFFFF; 
+  height:110px;
+  width:100%; 
+  position:fixed; 
+  top:0; 
+  left:0;
+  z-index:1; 
+}
+
+
+.charac{
+    border:none;
+    margin-left:0px;
+    margin-top:10%;
+    margin-bottom:5px;
+	background-image:url('bbb.jpg');
+	background-size:cover;
+  color:#FFFFFF; 
+  height:80%;
+  width:100%; 
+
+}
+
+#trailer{
+	background-color : 	#666666;
+	background-image:url('logan.png');
+	background-position:center;
+	background-repeat:repeat-y;
+    border:none;
+    margin-left:0px;
+    margin-top:10%;
+    margin-bottom:5px;
+    height:79%;
+	width:100%; 
+	color:#FFFFFF;
+}
+
+.tag{
+	text-align:center;
+	background-color:#AAAAAA;
+	float:right;
+	height:40px;
+	font-size: 34px;
+	font-family:Lucida Console;
+	}
+
+#story{
+    width:55%;
+    height:35%;
+    margin-left:30px;
+    margin-top:170px;
+    margin-bottom:5px;
+    float:left;
+	font-family:Comic Sans MS;
+	font-size: 22px;
+}
+#about{
+    width:40%;
+    height:42%;
+    border:1px #666 dashed;
+	background-color: #FFBB66;
+    margin-left:30%;
+    margin-top:10%;
+    margin-bottom:5px;
+    float:left;
+	position:fixed;
+	z-index:1; 
+	font-family:Microsoft JhengHei;
+}
+
+.title{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 62px;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: none;
+	background-color: #000000;
+	color: white;
+	cursor: pointer;
+}
+
+.language{
+	background-color: #000000;
+	top:0px;
+	border: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    float: right;
+    display: inline-block;
+    font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.happy{
+	background-color: #000000;
+	top:-40px;
+	border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    position: relative;
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.slide{
+	background-color: #000000;
+	border-style:solid;
+	border-color:#000000;
+	top:10px;
+	left:630px;
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+	float:right;
+	font-family:Microsoft JhengHei;
+}
+.introduce{
+	background-color: #000000;
+	top:100px;
+	left:91%;
+	border: none;
+    color: white;
+	width:126px;
+    height:40px;
+    padding: 12px 20px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+	font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.change{
+	color: #666;
+    background: #DDD
+}
+
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 0px 15px;    
+    font-size: 30px;
+	font-weight: bolder;
+    background: #DDD;
+    color: black;
+    cursor: pointer;
+}
